@@ -5,7 +5,16 @@ You can edit this file as you like.
 { name =
     "my-project"
 , dependencies =
-    [ "console", "effect", "psci-support", "react-basic-hooks" ]
+    [ "aff"
+    , "affjax"
+    , "concur-react"
+    , "console"
+    , "effect"
+    , "foreign-generic"
+    , "generics-rep"
+    , "psci-support"
+    , "react-basic-hooks"
+    ]
 , packages =
     ./packages.dhall
 , sources =
